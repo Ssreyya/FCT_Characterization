@@ -18,6 +18,5 @@ Outputs:
 3. genelistnew.txt contains all the genes for all isolates. 
 
 Dependencies:
-Blast
-Python
+Blast, Python
 
