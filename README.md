@@ -17,4 +17,7 @@ Outputs:
 2. coregenes.txt contains all the coregenes for each isolate in comma-delimited format.
 3. genelistnew.txt contains all the genes for all isolates. 
 
+Dependencies:
+Blast
+Python
 
