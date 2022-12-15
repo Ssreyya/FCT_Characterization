@@ -5,14 +5,7 @@ Created on Tue Oct 25 13:40:35 2022
 @author: SSudharsan
 """
 
-'''
-from Bio import SeqIO
-for record in SeqIO.parse("PROKKA_10042022.gbk", "gb"):
-    print("%s %i" % (record.id, len(record)))
 
-records = list(SeqIO.parse("PROKKA_10042022.gbk", "gb"))
-print(len(records))
-'''
 
 from Bio import SeqIO
 import functools
@@ -249,13 +242,7 @@ class FCT():
         "FCT_9":['hslO', 'rofA', 'ap1','fbp', 'bp', 'bp', 'ap2', 'yheo'],
         "FCT_10":['hslO', 'YSIRK_TR', 'ap1', 'signal_peptidase', 'bp', 'pilin_related_fszE', 'fbp', 'yheo'],
         "FCT_11":['hslO', 'rofA', 'PrtF1/sfbl', 'fbp', 'bp', 'ap', 'yheo'],
-        "FCT_12":['hslO','rofA','PrtF1/sfbl','fszE/ap2', 'fbp','yheO'],
-        "FCT_1.1":['hslO','rofA','bp','ap','fbp', 'yheo'],
-        "FCT_11.1":['hslO', 'rofA', 'PrtF1/sfbl', 'fbp', 'bp', 'bp','ap', 'yheo'],
-        "FCT_2.1":['hslO','rofA','PrtF1/sfbl', 'bp', 'ap2', 'ap1', 'fbp','fbp', 'yheo'],
-        "FCT_3.1":['hslO', 'rofA', 'PrtF1/sfbl', 'bp', 'fszE/ap2', 'fbp', 'fbp', 'yheo'],
-        "FCT_2.2":['hslO','rofA','PrtF1/sfbl', 'bp', 'ap', 'ap','ap', 'fbp', 'yheo'],
-        "FCT_2.3":['hslO','rofA','PrtF1/sfbl', 'PrtF1/sfbl', 'bp', 'ap2', 'ap1', 'fbp','fbp', 'yheo']}
+        "FCT_12":['hslO','rofA','PrtF1/sfbl','fszE/ap2', 'fbp','yheO']}
         
     
         
